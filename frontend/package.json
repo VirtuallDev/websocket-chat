@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec \"electron .\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}

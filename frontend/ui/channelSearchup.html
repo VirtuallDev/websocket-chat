@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/channelSearch.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">welcome user</div>
+
+            <div id="channel-displays">
+
+            </div>
+
+            <div id="create-channel-inputs">
+                <input type="text" id="channel-name" name="channel-name" placeholder="Channel Name" minlength="4" maxlength="16">
+                <input type="number" name="channel-member-limit" id="channel-member-limit" placeholder="Channel Member Limit">
+            </div>
+
+        <div class="footer">
+            <span id="create-new-channel" class="span-btn">Create A New Channel</span>
+            <span id="set-channel" class="span-btn">Set Channel</span>
+        </div>
+    </div>
+    <script src="dist/qs.min.js"></script>
+    <script src="dist/socket.io.js"></script>
+    <script src="channelSearchup.js"></script>
+    <script src="base.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(187, 134, 223, 0.7);
+    width: 800px;
+    height: auto fit-content;
+    border-radius: 1vh;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+  0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    background-color: rgba(164, 48, 241, 0.6);
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    padding: 10px;
+}
+
+
+#create-channel-inputs {
+    text-align: center;
+    padding: 2vh;
+}
+
+input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #ccc;
+    border-radius: 1vh;
+    background-color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    outline: none;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.channel {
+    padding: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.channel span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 2vh;
+
+}
+
+
+.span-btn {
+    background-color: #7f4686;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1vh;
+}
+
+
+.span-btn:hover {
+    background-color: #6f3e75;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.span-btn:active {
+    transform: scale3d(0.95, 0.95, 1) translateY(2px);
+}
+
+.footer {
+    background-color: rgba(164, 48, 241, 0.6);
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    padding: 10px;
+}
